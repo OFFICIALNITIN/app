@@ -12,7 +12,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "https://expense-tracker-server-xyug.onrender.com",
         changeOrigin: true,
       },
     },
